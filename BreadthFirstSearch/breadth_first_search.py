@@ -1,9 +1,4 @@
 # breadth_first_search.py
-"""Volume 2: Breadth-First Search.
-<Lane Lindstrom>
-<Math 321>
-<2/26/2026>
-"""
 
 import networkx as nx
 from numpy import mean

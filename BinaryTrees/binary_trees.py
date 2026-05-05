@@ -1,15 +1,8 @@
 # binary_trees.py
-"""Volume 2: Binary Trees.
-<Lane Lindstrom>
-<Math 321>
-<2/12/2026>
-"""
 
-# These imports are used in BST.draw().
 from time import perf_counter as time
 from matplotlib import pyplot as plt
 import random
-
 import networkx as nx
 from networkx.drawing.nx_agraph import graphviz_layout
 
