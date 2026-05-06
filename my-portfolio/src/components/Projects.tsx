@@ -41,6 +41,36 @@ const projects: Project[] = [
         github: "https://github.com/Lalindolane/Portfolio/tree/main/NearestNeighbor",
     },
     {
+        title: "Facial Recognition",
+        description: "Uses Eigen Faces to break down and identify a closest match to a given photo",
+        github: "https://github.com/Lalindolane/Portfolio/tree/main/FacialRecognition",
+    },
+    {
+        title: "Image Segmentation",
+        description: "Uses Algebraic Connectivity of a matrix to split it into pieces with given tolerances",
+        github: "https://github.com/Lalindolane/Portfolio/tree/main/ImageSegmentation",
+    },
+    {
+        title: "Least Squares with Eigen Values",
+        description: "Uses least squares to compute linear regression, polynomial regression, elliptical regression, and circular regression for best fitting data models",
+        github: "https://github.com/Lalindolane/Portfolio/tree/main/LeastSquares_Eigenvalues",
+    },
+    {
+        title: "Linear Systems",
+        description: "Uses LU decomposition to solve for vector x in Ax=b",
+        github: "https://github.com/Lalindolane/Portfolio/tree/main/LinearSystems",
+    },
+    {
+        title: "Linear Transformations",
+        description: "Shear, rotation, reflection, and stretch are visualized and shown as matrix multiplication",
+        github: "https://github.com/Lalindolane/Portfolio/tree/main/LinearTransformations",
+    },
+    {
+        title: "QR Decomposition",
+        description: "QR decomposition via Gram Schmidt, Householder, as well as Hessenberg decomposition",
+        github: "https://github.com/Lalindolane/Portfolio/tree/main/QR_Decomposition",
+    },
+    {
         title: "My Portfolio Website",
         description: "Designed and created my own portfolio website!",
         github: "https://github.com/Lalindolane/Portfolio/tree/main/my-portfolio",

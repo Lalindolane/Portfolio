@@ -1,9 +1,4 @@
 # qr_decomposition.py
-"""Volume 1: The QR Decomposition.
-<Lane Lindstrom>
-<Math 345>
-<3/3/2026>
-"""
 
 import numpy as np
 from scipy import linalg as la
