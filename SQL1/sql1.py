@@ -1,10 +1,4 @@
 # sql1.py
-"""Volume 1: SQL 1 (Introduction).
-<Lane Lindstrom>
-<Math 321>
-<3/19/2026>
-"""
-
 import csv
 import numpy as np
 import sqlite3 as sql

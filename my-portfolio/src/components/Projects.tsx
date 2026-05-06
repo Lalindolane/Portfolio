@@ -40,11 +40,16 @@ const projects: Project[] = [
         description: "Uses K-D Trees for hand writing recognition",
         github: "https://github.com/Lalindolane/Portfolio/tree/main/NearestNeighbor",
     },
+    {
+        title: "My Portfolio Website",
+        description: "Designed and created my own portfolio website!",
+        github: "https://github.com/Lalindolane/Portfolio/tree/main/my-portfolio",
+    }
 ];
 
 export default function Projects() {
     return (
-        <section style={{ padding: "2rem" }}>
+        <section id="projects" style={{ padding: "2rem" }}>
             <h2>Projects</h2>
 
             {projects.map((project, index) => (

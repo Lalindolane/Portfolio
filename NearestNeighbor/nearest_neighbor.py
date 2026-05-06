@@ -1,10 +1,4 @@
 # nearest_neighbor.py
-"""Volume 2: Nearest Neighbor Search.
-<Lane Lindstrom>
-<Math 321>
-<02/19/2026>
-"""
-
 import numpy as np
 from scipy import stats
 from scipy import linalg as la

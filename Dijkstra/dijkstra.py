@@ -1,11 +1,5 @@
 # dijkstra.py
-"""Volume 2: Dijkstra's Algorithm
-<Lane Lindstrom>
-<Math 321>
-<03/05/2026>
-"""
 
-# imports
 from math import sqrt, inf
 from queue import PriorityQueue
 from collections import defaultdict

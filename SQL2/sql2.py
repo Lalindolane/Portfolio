@@ -1,9 +1,3 @@
-"""Volume 1: SQL 2.
-<Lane Lindstrom>
-<Math 321>
-<3/26/2026>
-"""
-
 import sqlite3 as sql
 
 
