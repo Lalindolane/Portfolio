@@ -18,7 +18,7 @@
   }
 }
 
-..hero {
+.hero {
   text-align: center;
   padding-top: 6rem;
 }
@@ -59,7 +59,6 @@
   height: 26px;
   width: auto;
   transform: perspective(2000px) rotateZ(300deg) rotateX(40deg) rotateY(39deg) scale(0.8);
-}
 }
 
 #center {
