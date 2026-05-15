@@ -1,9 +1,18 @@
 export default function Hero() {
     return (
-        <section id="home" style={{ padding: "2rem" }}>
-            <h1>Hi, I'm Lane!</h1>
+        <section
+            id="home"
+            className="section hero"
+        >
+            <h1>
+                Hi, I'm <span>Lane</span>
+            </h1>
+
             <p>
-                I'm an Applied Mathematics Major, with an emphasis in machine learning and data science.
+                I'm an Applied Mathematics major with an emphasis
+                in machine learning and data science.
+                I enjoy building mathematical models,
+                algorithms, and technical software projects.
             </p>
         </section>
     );

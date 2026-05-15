@@ -7,94 +7,83 @@ type Project = {
 const projects: Project[] = [
     {
         title: "Dijkstra's Algorithm",
-        description: "Models tsunami pathing using Dijkstra's to model the quickest path from point of origin to impact point, giving the time it takes to travel as well as reproducing that path",
-        github: "https://github.com/Lalindolane/Portfolio/tree/main/Dijkstra",
+        description:
+            "Models tsunami pathing using Dijkstra's algorithm to determine the fastest route from origin to impact point.",
+        github:
+            "https://github.com/Lalindolane/Portfolio/tree/main/Dijkstra",
     },
+
     {
         title: "Basic Markov Chains",
-        description: "Predictive text using Yoda speech as a sample",
-        github: "https://github.com/Lalindolane/Portfolio/tree/main/MarkovChains",
+        description:
+            "Predictive text generation using Yoda speech as sample training data.",
+        github:
+            "https://github.com/Lalindolane/Portfolio/tree/main/MarkovChains",
     },
+
     {
         title: "Breadth First Search",
-        description: "Uses a BFS to model the 'Degrees of Bacon' in actors",
-        github: "https://github.com/Lalindolane/Portfolio/tree/main/BreadthFirstSearch",
+        description:
+            "Uses BFS to model the Degrees of Bacon relationship between actors.",
+        github:
+            "https://github.com/Lalindolane/Portfolio/tree/main/BreadthFirstSearch",
     },
+
     {
         title: "Convolution Filtering",
-        description: "Uses convolution to clean up both audio as well as a png image for clearer reproduction and image clarity",
-        github: "https://github.com/Lalindolane/Portfolio/tree/main/ConvolutionFiltering",
+        description:
+            "Uses convolution filtering to improve image clarity and clean noisy audio signals.",
+        github:
+            "https://github.com/Lalindolane/Portfolio/tree/main/ConvolutionFiltering",
     },
-    {
-        title: "Binary Trees",
-        description: "Dives in depth into the efficiencies and temporal complexities of Doubly Linked Lists, Binary Trees, and AVL Trees",
-        github: "https://github.com/Lalindolane/Portfolio/tree/main/BinaryTrees",
-    },
-    {
-        title: "Fourier Transform",
-        description: "Uses Fourier Transform to create chords, waves, arpeggios, etc. using sampling, DFT, and FFT",
-        github: "https://github.com/Lalindolane/Portfolio/tree/main/FourierTransform",
-    },
-    {
-        title: "Nearest Neighbor",
-        description: "Uses K-D Trees for hand writing recognition",
-        github: "https://github.com/Lalindolane/Portfolio/tree/main/NearestNeighbor",
-    },
+
     {
         title: "Facial Recognition",
-        description: "Uses Eigen Faces to break down and identify a closest match to a given photo",
-        github: "https://github.com/Lalindolane/Portfolio/tree/main/FacialRecognition",
+        description:
+            "Uses Eigenfaces to identify the closest facial match to a provided image.",
+        github:
+            "https://github.com/Lalindolane/Portfolio/tree/main/FacialRecognition",
     },
+
     {
-        title: "Image Segmentation",
-        description: "Uses Algebraic Connectivity of a matrix to split it into pieces with given tolerances",
-        github: "https://github.com/Lalindolane/Portfolio/tree/main/ImageSegmentation",
+        title: "Fourier Transform",
+        description:
+            "Creates chords, waves, and arpeggios using FFT and DFT signal processing techniques.",
+        github:
+            "https://github.com/Lalindolane/Portfolio/tree/main/FourierTransform",
     },
-    {
-        title: "Least Squares with Eigen Values",
-        description: "Uses least squares to compute linear regression, polynomial regression, elliptical regression, and circular regression for best fitting data models",
-        github: "https://github.com/Lalindolane/Portfolio/tree/main/LeastSquares_Eigenvalues",
-    },
-    {
-        title: "Linear Systems",
-        description: "Uses LU decomposition to solve for vector x in Ax=b",
-        github: "https://github.com/Lalindolane/Portfolio/tree/main/LinearSystems",
-    },
-    {
-        title: "Linear Transformations",
-        description: "Shear, rotation, reflection, and stretch are visualized and shown as matrix multiplication",
-        github: "https://github.com/Lalindolane/Portfolio/tree/main/LinearTransformations",
-    },
-    {
-        title: "QR Decomposition",
-        description: "QR decomposition via Gram Schmidt, Householder, as well as Hessenberg decomposition",
-        github: "https://github.com/Lalindolane/Portfolio/tree/main/QR_Decomposition",
-    },
-    {
-        title: "My Portfolio Website",
-        description: "Designed and created my own portfolio website!",
-        github: "https://github.com/Lalindolane/Portfolio/tree/main/my-portfolio",
-    }
 ];
 
 export default function Projects() {
     return (
-        <section id="projects" style={{ padding: "2rem" }}>
-            <h2>Projects</h2>
+        <section
+            id="projects"
+            className="section"
+        >
+            <h2 className="section-title">
+                Projects
+            </h2>
 
-            {projects.map((project, index) => (
-                <div key={index} style={{ marginBottom: "1.5rem" }}>
-                    <h3>{project.title}</h3>
-                    <p>{project.description}</p>
-                    <a
-                        href={project.github}
-                        target="_blank"
-                        rel="noopener noreferrer"
+            <div className="projects-grid">
+                {projects.map((project, index) => (
+                    <div
+                        key={index}
+                        className="project-card"
                     >
-                        View Code
-                    </a>
-                </div>
-            ))}
+                        <h3>{project.title}</h3>
+
+                        <p>{project.description}</p>
+
+                        <a
+                            href={project.github}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            View Code →
+                        </a>
+                    </div>
+                ))}
+            </div>
         </section>
     );
 }
