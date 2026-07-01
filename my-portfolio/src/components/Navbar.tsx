@@ -29,11 +29,16 @@ export default function Navbar() {
                     </li>
                 </ul>
                 <div>
+                    <a
+                        href="https://acme.byu.edu"
+                        target="_blank"
+                    >
                     <img
                         src="/images/acme.png"
                         alt="Acme logo"
                         width="35px"
                     />
+                    </a>
                 </div>
             </div>
         </nav>
