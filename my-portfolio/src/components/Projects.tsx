@@ -60,7 +60,7 @@ export default function Projects() {
             id="projects"
             className="section"
         >
-            <h2 className="section-title">
+            <h2 className="section-title" style={{ marginTop: "10px" }}>
                 Other Minor Projects
             </h2>
 
