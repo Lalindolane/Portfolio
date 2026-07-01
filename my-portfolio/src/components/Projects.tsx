@@ -61,7 +61,7 @@ export default function Projects() {
             className="section"
         >
             <h2 className="section-title">
-                Projects
+                Other Minor Projects
             </h2>
 
             <div className="projects-grid">

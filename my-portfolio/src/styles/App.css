@@ -27,6 +27,14 @@
   margin-bottom: 2rem;
 }
 
+.section-subtitle {
+  color: var(--text-muted);
+
+  font-size: 1.3rem;
+
+  margin-bottom: 1.5rem;
+}
+
 /* =========================
    NAVBAR
 ========================= */
@@ -145,7 +153,7 @@
 ========================= */
 
 .hero {
-  min-height: 85vh;
+  min-height: 35vh;
 
   display: flex;
   flex-direction: column;

@@ -10,7 +10,7 @@ export default function Hero() {
 
             <p>
                 I'm an Applied Mathematics major with an emphasis
-                in machine learning and data science.
+                in machine learning and data science at BYU Provo.
                 I enjoy building mathematical models,
                 algorithms, and technical software projects.
             </p>
