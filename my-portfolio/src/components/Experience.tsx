@@ -18,16 +18,20 @@ export default function Experience() {
                 >
                 View on GitHub →
                 </a>
-            <h3 className="section-subtitle"> Full Stack Developer Experience</h3>
-            <div
-                style={{
+                <div style={{
                     display: "flex",
                     justifyContent: "space-between",
                     alignItems: "flex-start",
                     gap: "40px",
-                }}
-                >
-                <div>
+                    border: "1px solid var(--border)",
+                    borderRadius: "12px",
+                    padding: "30px",
+                }}>
+                    <div>
+                    <h3 className="section-subtitle" style={{fontSize: '18px'}}>
+                    Full Stack Developer Experience (Undergrad Research)
+                    </h3>
+
                     <p>Relevant skills:</p>
                     <ul
                     style={{
@@ -37,23 +41,27 @@ export default function Experience() {
                     >
                     <li>Typescript (Node.js, React)</li>
                     <li>Python (FastAPI, asyncio, httpx)</li>
-                    <li>DTOs, Validation, Debugging, Testing</li>
+                    <li>DTOs, Validation</li>
+                    <li>Debugging, Testing</li>
                     <li>Vite</li>
                     <li>Docker</li>
                     <li>MySQL</li>
                     <li>Git/GitHub Actions</li>
                     <li>HTML + CSS</li>
                     </ul>
-                </div>
+                    </div>
 
-                <img
+                <div>
+            <img
                     src="/images/researchview.png"
                     alt="Takes a Village Research View"
                     style={{
-                    width: "800px",
-                    borderRadius: "8px",
+                    width: "750px",
+                    borderRadius: "48px",
+                    padding: "40px",
                     }}
                 />
+                </div>
                 </div>
 
             <div
@@ -64,7 +72,8 @@ export default function Experience() {
                     background: "var(--surface)",
                     border: "1px solid var(--border)",
                     borderRadius: "12px",
-                    padding: "24px",
+                    padding: "30px",
+                    paddingLeft: "80px",
                 }}
             >
                 {/* Summary Row */}

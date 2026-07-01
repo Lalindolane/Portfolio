@@ -9,9 +9,16 @@ export default function Navbar() {
                 </div>
 
                 <ul className="nav-links">
+
+                    <li>
+                        <a href="#experience">
+                            Experience
+                        </a>
+                    </li>
+
                     <li>
                         <a href="#projects">
-                            Projects
+                            Smaller Projects
                         </a>
                     </li>
 
@@ -21,13 +28,13 @@ export default function Navbar() {
                         </a>
                     </li>
                 </ul>
-
-                <a
-                    href="#contact"
-                    className="nav-button"
-                >
-                    Get In Touch
-                </a>
+                <div>
+                    <img
+                        src="/images/acme.png"
+                        alt="Acme logo"
+                        width="35px"
+                    />
+                </div>
             </div>
         </nav>
     );
