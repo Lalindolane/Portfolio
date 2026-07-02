@@ -8,9 +8,9 @@ A portfolio showcasing my software engineering projects, full-stack development 
 
 ## About
 
-This portfolio highlights projects that demonstrate my experience building full-stack applications, multiplayer systems, backend infrastructure, and AI-powered software.
+This portfolio highlights projects that demonstrate my experience with full-stack development, genetic AI agents, and the application of advanced mathematics emphasized through algorithms.
 
-My primary featured project, **Takes a Village**, combines a React frontend with a FastAPI backend, real-time WebSocket communication, Dockerized services, MySQL persistence, and genetic algorithm AI agents. The portfolio also includes additional projects that showcase my work in web development and software engineering.
+My primary featured project, **Takes a Village**, combines a React frontend with a FastAPI backend, real-time WebSocket communication, Dockerized services, MySQL persistence, and genetic algorithm AI agents. This portfolio also includes additional projects that showcase my work in web development, software engineering, and applied mathematics.
 
 [Visit takesAVillage repo](https://github.com/DallinJacksonE/takesAVillage)
 
