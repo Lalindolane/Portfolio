@@ -16,7 +16,7 @@ My primary featured project, **Takes a Village**, combines a React frontend with
 
 ---
 
-## Built With
+## Experience with
 
 ### Frontend
 
@@ -26,7 +26,7 @@ My primary featured project, **Takes a Village**, combines a React frontend with
 - HTML5
 - CSS3
 
-### Backend Experience
+### Backend
 
 - Python
 - FastAPI
