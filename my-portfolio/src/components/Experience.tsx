@@ -108,7 +108,7 @@ export default function Experience() {
                         alt="Gameplay screenshot"
                         style={{
                             width: "550px",
-                            height: "475px",
+                            height: "auto",
                             borderRadius: "8px",
                             flexShrink: 0,
                         }}
