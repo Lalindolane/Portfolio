@@ -51,6 +51,8 @@ Takes a Village is a multiplayer social-deduction resource management game where
 
 Players gather resources, construct developments, hire others as workers, negotiate contracts, build campfires, and attempt to outlast the rest of the village.
 
+A huge thank you to Dallin Jackon and Professor Crandall, as this project was built by both of us in Professor Crandall's (BYU Provo) CS undergrad lab.
+
 [Visit takesAVillage repo](https://github.com/DallinJacksonE/takesAVillage)
 
 ### Languages + Packages
