@@ -56,7 +56,7 @@ export default function Experience() {
                     src="/images/researchview.png"
                     alt="Takes a Village Research View"
                     style={{
-                    width: "750px",
+                    width: "800px",
                     borderRadius: "48px",
                     padding: "40px",
                     }}
@@ -81,7 +81,7 @@ export default function Experience() {
                     style={{
                         display: "flex",
                         justifyContent: "space-between",
-                        maxWidth: "900px",
+                        maxWidth: "1000px",
                         alignItems: "flex-start",
                         gap: "16px",
                     }}
@@ -107,7 +107,7 @@ export default function Experience() {
                         src="/images/gameplay.png"
                         alt="Gameplay screenshot"
                         style={{
-                            width: "550px",
+                            width: "700px",
                             height: "auto",
                             borderRadius: "8px",
                             flexShrink: 0,
