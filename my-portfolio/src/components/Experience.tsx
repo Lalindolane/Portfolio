@@ -101,6 +101,9 @@ export default function Experience() {
                             through mutation, crossover, and fitness evaluation, and all
                             services are containerized with Docker.
                         </p>
+                        <a href='https://tav.djackson.dev/' target="_blank" rel="noopener noreferrer">
+                            Visit the Game
+                        </a>
                     </div>
                     <div style={{paddingTop: '40px'}}>
                     <img
