@@ -2,7 +2,7 @@
 
 A portfolio showcasing my software engineering projects, full-stack development experience, and technical interests.
 
-**Live Site:** https://portfolio-psi-wheat-67.vercel.app/
+**Live Site:** https://lane-lindstrom.vercel.app/
 
 ---
 
@@ -153,7 +153,7 @@ Every push to the `main` branch automatically generates a new production deploym
 **Lane Lindstrom**
 
 Portfolio  
-https://portfolio-psi-wheat-67.vercel.app/
+https://lane-lindstrom.vercel.app/
 
 GitHub  
 https://github.com/Lalindolane
