@@ -18,13 +18,13 @@ export default function Navbar() {
 
                     <li>
                         <a href="#work">
-                            Work-History
+                            Work Experience
                         </a>
                     </li>
 
                     <li>
                         <a href="#projects">
-                            Smaller Projects
+                            Minor Projects
                         </a>
                     </li>
 
