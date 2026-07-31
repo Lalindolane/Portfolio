@@ -56,7 +56,7 @@ export default function Experience() {
                     src="/images/researchview.png"
                     alt="Takes a Village Research View"
                     style={{
-                    width: "750px",
+                    width: "800px",
                     borderRadius: "48px",
                     padding: "40px",
                     }}
@@ -81,7 +81,7 @@ export default function Experience() {
                     style={{
                         display: "flex",
                         justifyContent: "space-between",
-                        maxWidth: "900px",
+                        maxWidth: "1000px",
                         alignItems: "flex-start",
                         gap: "16px",
                     }}
@@ -101,14 +101,23 @@ export default function Experience() {
                             through mutation, crossover, and fitness evaluation, and all
                             services are containerized with Docker.
                         </p>
+                        <a style={{
+                            color: "var(--blue-soft)",
+                            textDecoration: "none",
+                            fontWeight: 600,
+                            transition: "color 0.2s ease",
+                        }}
+                            href='https://tav.djackson.dev/' target="_blank" rel="noopener noreferrer">
+                            Visit the Game
+                        </a>
                     </div>
                     <div style={{paddingTop: '40px'}}>
                     <img
                         src="/images/gameplay.png"
                         alt="Gameplay screenshot"
                         style={{
-                            width: "550px",
-                            height: "475px",
+                            width: "700px",
+                            height: "auto",
                             borderRadius: "8px",
                             flexShrink: 0,
                         }}
