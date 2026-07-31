@@ -30,7 +30,7 @@ export default function Hero() {
                     }}>
                     View My Work
                 </a>
-                <a href="/Lane_Lindstrom_Resume.pdf" style={{
+                <a href="/Lindstrom_Lane.pdf" style={{
                     'color': '#5CC6D0',
 
                     'transition': 'color 0.2s ease',
