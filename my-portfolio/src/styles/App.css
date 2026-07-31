@@ -2,6 +2,11 @@
    APP
 ========================= */
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 60px;
+}
+
 .app {
   min-height: 100vh;
 }
@@ -17,6 +22,14 @@
 
   padding:
     1.25rem 1.25rem;
+}
+
+h3 {
+  color: var(--honey);
+
+  font-size: 1.5rem;
+
+  margin-top: 1.5rem;
 }
 
 .section-title {
