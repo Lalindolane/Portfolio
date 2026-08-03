@@ -166,7 +166,7 @@ h3 {
 ========================= */
 
 .hero {
-  min-height: 35vh;
+  height: 90vh;
 
   display: flex;
   flex-direction: column;
@@ -284,7 +284,7 @@ h3 {
 
 .contact {
   text-align: center;
-  padding: 10rem;
+  padding: 3rem;
 }
 
 .contact-card {
