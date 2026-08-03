@@ -36,7 +36,7 @@ export default function Hero() {
                     'transition': 'color 0.2s ease',
 
                     'padding': '0.5rem 1rem',
-                    }}> Resume</a>
+                    }}>Resume</a>
             </div>
         </section>
     );
