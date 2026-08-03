@@ -4,7 +4,8 @@ export default function Experience() {
             id="experience"
             className="section"
         >
-            <h2 className="section-title">Takes a Village</h2>
+            <h2 className="section-title">Featured Project</h2>
+            <h3>Takes a Village</h3>
             <a
                 style={{
                     color: "var(--blue-soft)",

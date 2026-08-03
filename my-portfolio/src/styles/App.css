@@ -2,6 +2,11 @@
    APP
 ========================= */
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 60px;
+}
+
 .app {
   min-height: 100vh;
 }
@@ -17,6 +22,14 @@
 
   padding:
     1.25rem 1.25rem;
+}
+
+h3 {
+  color: var(--honey);
+
+  font-size: 1.5rem;
+
+  margin-top: 1.5rem;
 }
 
 .section-title {
@@ -163,6 +176,9 @@
   text-align: center;
 
   position: relative;
+
+  padding:
+    17rem 1.25rem;
 }
 
 .hero h1 {
@@ -268,6 +284,7 @@
 
 .contact {
   text-align: center;
+  padding: 10rem;
 }
 
 .contact-card {
@@ -348,4 +365,87 @@
   .section-title {
     font-size: 2.1rem;
   }
+}
+
+.experience {
+    max-width: var(--section-width);
+    margin: 0 auto;
+    padding: 1.25rem;
+}
+
+.experience h2 {
+    text-align: center;
+    font-size: 2.8rem;
+    margin-bottom: 50px;
+}
+
+.experience-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 30px;
+}
+
+.experience-card {
+    background:
+        linear-gradient(
+            180deg,
+            rgba(255,255,255,.02),
+            rgba(0,0,0,.08)
+        ),
+        var(--bg-card);
+
+    border: 1px solid var(--border);
+
+    border-radius: 20px;
+
+    padding: 1.5rem;
+
+    box-shadow: var(--shadow);
+
+    transition:
+        transform .2s ease,
+        border-color .2s ease,
+        box-shadow .25s ease;
+}
+
+.experience h2 {
+    color: var(--blue-primary);
+    font-size: 2.7rem;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.experience-card h3 {
+    color: var(--honey-soft);
+    margin-bottom: .5rem;
+}
+
+.job-info {
+    color: var(--text-muted);
+    margin-bottom: 1rem;
+}
+
+.experience-card li {
+    color: var(--text-muted);
+    margin-bottom: .75rem;
+}
+
+.job-info {
+    display: flex;
+    justify-content: space-between;
+    color: #8b949e;
+    margin-bottom: 18px;
+    font-size: .9rem;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.experience-card ul {
+    padding-left: 20px;
+}
+
+.experience-card li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+    color: #c9d1d9;
 }

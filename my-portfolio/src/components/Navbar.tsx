@@ -12,13 +12,19 @@ export default function Navbar() {
 
                     <li>
                         <a href="#experience">
-                            Experience
+                            Featured Project
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#work">
+                            Work Experience
                         </a>
                     </li>
 
                     <li>
                         <a href="#projects">
-                            Smaller Projects
+                            Minor Projects
                         </a>
                     </li>
 
