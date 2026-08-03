@@ -83,7 +83,7 @@ The original backend relied heavily on large conditional logic and broadcasting 
 ---
 
 
-# Running Locally
+# Running my website locally
 
 Clone the repository
 
@@ -137,32 +137,21 @@ Every push to the `main` branch automatically generates a new production deploym
 
 ---
 
-# Future Improvements
-
-- Additional project case studies
-- Interactive project demos
-- Blog documenting engineering decisions
-- Improved accessibility
-- Additional animations and polish
-- Expanded mobile optimizations
-
----
-
 # Contact
 
 **Lane Lindstrom**
 
-Portfolio  
+Portfolio:  
 https://portfolio-psi-wheat-67.vercel.app/
 
-GitHub  
+GitHub:  
 https://github.com/Lalindolane
 
-LinkedIn  
-*(Add your LinkedIn URL)*
+LinkedIn: 
+https://www.linkedin.com/in/lane-lindstrom-879364356/
 
-Email  
-*(Add your preferred contact email)*
+Email:  
+Lalindo.lane@gmail.com
 
 ---
 
